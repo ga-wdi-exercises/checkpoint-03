@@ -23,7 +23,7 @@ const sing = new Playlist("loveSong")
 //
 class Album extends Playlist{
   constructor(title,artist){
-    this.artist = artist;
+    this.artists = artist;
   }
 }
 

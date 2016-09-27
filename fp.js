@@ -32,4 +32,5 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-var peopleWhoseNamesHaveTheLetterS = people.filter(person => person.name.match("s"))
+
+var peopleWhoseNamesHaveTheLetterS = people.forEach(person => person.name.match("s"))
