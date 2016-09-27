@@ -1,13 +1,18 @@
 // Convert the following code to use `.map`
 
-var peoplesAges = []
+// var peoplesAges = []
 var people = [
   {name: "Jane", age: 32},
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-people.forEach(person => {
-  peoplesAges.push(person.age)
+
+// people.forEach(person => {
+//   peoplesAges.push(person.age)
+// })
+
+peoplesAges = people.map(person => {
+  return person.age;
 })
 
 // Convert the following code to use `.filter`
