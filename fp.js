@@ -1,15 +1,15 @@
 // Convert the following code to use `.map`
 
-var peoplesAges = []
-var people = [
-  {name: "Jane", age: 32},
-  {name: "Jessica", age: 34},
-  {name: "Jasmine", age: 39}
-]
-people.map(person => {
-  peoplesAges.push(person.age)
-})
-return peoplesAges
+// var peoplesAges = []
+// var people = [
+//   {name: "Jane", age: 32},
+//   {name: "Jessica", age: 34},
+//   {name: "Jasmine", age: 39}
+// ]
+// var peoplesAges = people.map(person => {
+//   peoplesAges.push(person.age)
+// })
+
 
 // Convert the following code to use `.filter`
 
@@ -19,7 +19,7 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-people.forEach(person => {
+var peopleYoungerThan35 = people.filter(person => {
   if(person.age < 35){
     peopleYoungerThan35.push(person)
   }
