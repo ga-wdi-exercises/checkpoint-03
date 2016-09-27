@@ -15,5 +15,15 @@ class Playlist {
   constructor(title, song){
     this.title = title;
     this.song = song;
+    this.favorites = 0;
   }
 }
+
+class Blues extends Playlist {
+  constructor(title, song, year){
+    this.songYear = year;
+  }
+}
+
+const jazz = new Playlist("Duke Ellington")
+const milesDavis = new Blues("Greatest Hits")
