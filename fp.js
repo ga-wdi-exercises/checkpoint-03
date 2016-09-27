@@ -39,8 +39,6 @@ var people = [
 ]
 // var peopleWhoseNamesHaveTheLetterS = people.filter(person => person.name.match("s"))
 
-var peopleWhoseNamesHaveTheLetterS = people.forEach(haveLetterS);
-
-function haveLetterS(person){
-  return person.name.match("s");
-}
+var peopleWhoseNamesHaveTheLetterS = people.forEach(function (person){
+  person.name.match("s");
+});
