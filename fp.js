@@ -6,7 +6,7 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-people.forEach(person => {
+people.map(person => {
   peoplesAges.push(person.age)
 })
 
@@ -23,7 +23,11 @@ people.forEach(person => {
     peopleYoungerThan35.push(person)
   }
 })
-
+var filtered = [
+  {name: "Jane", age: 32},
+  {name: "Jessica", age: 34},
+  {name: "Jasmine", age: 39}
+].filter(peopleYoungerThan35);
 // Convert the following to use `.forEach`
 
 var people = [
@@ -32,3 +36,9 @@ var people = [
   {name: "Jasmine", age: 39}
 ]
 var peopleWhoseNamesHaveTheLetterS = people.filter(person => person.name.match("s"))
+
+var people = [
+  {name: "Jane", age: 32},
+  {name: "Jessica", age: 34},
+  {name: "Jasmine", age: 39}
+];people.forEach(peopleWhoseNamesHaveTheLetterS(person.name.match("s")));
