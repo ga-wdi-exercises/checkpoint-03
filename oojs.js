@@ -9,11 +9,13 @@ addSong(songName){
   this.song.push(songName);
 }
 
+newPlaylist();
 
-
-
-
-
+class Album {
+  constructor(title,song,artist){
+    super(title,song);
+    this.artist = atist;
+}}
 
 
 
