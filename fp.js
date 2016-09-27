@@ -22,10 +22,14 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-people.forEach(person => {
-  if(person.age < 35){
-    peopleYoungerThan35.push(person)
-  }
+// people.forEach(person => {
+//   if(person.age < 35){
+//     peopleYoungerThan35.push(person)
+//   }
+// })
+
+peopleYoungerThan35 = people.filter(person => {
+  return person.age < 35;
 })
 
 // Convert the following to use `.forEach`
