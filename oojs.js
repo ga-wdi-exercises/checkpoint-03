@@ -25,6 +25,7 @@ addSong(song){
 }
 class Album extends Playlist {
   constructor(artist) {
-    this.artist = thisArtist
+    this.artist = thisArtist;
+    console.log(this.artist);
   }
 }
