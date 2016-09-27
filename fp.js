@@ -38,10 +38,10 @@ var people = [
 ]
 var peopleWhoseNamesHaveTheLetterS = people.filter(person => person.name.match("s"))
 
-
+var peopleWhoseNamesHaveTheLetterS = []
 people.forEach(person => {
-  if(person.name.match("s"){
-    var peopleWhoseNamesHaveTheLetterS = people.filter(person)
+  if(person.name.match("s")){
+    people.push(person)
   }
 })
 // I need more practice with using these and "=>"
