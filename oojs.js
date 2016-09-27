@@ -29,3 +29,4 @@ class Album extends Playlist {
 }
 
 // Create an instance of the Album class.
+var album1 = new Album('No String Attached', 'Bye Bye Bye', '*NSYNC')
