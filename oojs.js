@@ -11,7 +11,7 @@ class playList {
         let favorites = 0;
     }
     addSong(){
-        this.songs++
+        this.songs = this.songs + songs
     }
 }
 
@@ -21,7 +21,8 @@ const cheers = new playList("Yoda Jams", "Careless Whisper")
   // Have an artist property that is determined by some input.
 
 class album extends playList {
-  constructor(artist){
+    constructor(title, songs, artist){
+        super(title, songs)
         this.artist = artist
     }
 }
