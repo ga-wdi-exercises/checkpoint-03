@@ -7,7 +7,7 @@ var people = [
   {name: "Jasmine", age: 39}
 ]
 
-var peoplesAges = people.map(function(age){
+var newAges = people.map(function(age){
   return age;
 });
 
@@ -29,14 +29,10 @@ var people = [
 //   }
 // })
 
-function youngerThan(value){
-  return value < 35 ;
+function youngerThan(age){
+  return age < 35 ;
 }
-var filtered =[
-  {name: "Jane", age: 32},
-  {name: "Jessica", age: 34},
-  {name: "Jasmine", age: 39}
-].filter(people.youngerThan);
+var filtered =people.filter(youngerThan);
 
 // Convert the following to use `.forEach`
 
