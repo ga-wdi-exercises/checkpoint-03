@@ -31,5 +31,5 @@ class Album extends Playlist{
     this.artist = artist;
   }
 }
-//
-// darkSideOfTheMoon = new Album('Dark Side of the Moon', 'Pink Floyd');
+
+darkSideOfTheMoon = new Album('Dark Side of the Moon', 'Pink Floyd');
