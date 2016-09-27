@@ -30,3 +30,4 @@ class Album extends Playlist {
   // Have an artist property that is determined by some input.
 
 // Create an instance of the Album class.
+Album whoseAlbum = new Album();
