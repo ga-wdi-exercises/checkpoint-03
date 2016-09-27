@@ -17,6 +17,7 @@ var people = [
 
 // Convert the following code to use `.filter`
 
+
 var peopleYoungerThan35 = people.filter(youngerThan35)
 var people = [
   {name: "Jane", age: 32},
@@ -28,11 +29,6 @@ function youngerThan35(person){
   return person.age <35;
 }
 
-// people.forEach(person => {
-//   if(person.age < 35){
-//     peopleYoungerThan35.push(person)
-//   }
-// })
 
 // Convert the following to use `.forEach`
 
@@ -41,4 +37,10 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-var peopleWhoseNamesHaveTheLetterS = people.filter(person => person.name.match("s"))
+// var peopleWhoseNamesHaveTheLetterS = people.filter(person => person.name.match("s"))
+
+var peopleWhoseNamesHaveTheLetterS = people.forEach(haveLetterS);
+
+function haveLetterS(person){
+  return person.name.match("s");
+}
