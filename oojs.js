@@ -22,4 +22,4 @@ class Playlist {
   }
 }
 
-// const music = new Playlist ("Atom", "hello");
+const music = new Playlist ("Atom");
