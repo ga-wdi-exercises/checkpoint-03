@@ -29,3 +29,5 @@ class Album extends Playlist {
 }
 
 // Create an instance of the Album class.
+
+var myAlbum = new Album("Self Titled",["My only song"],"Barrett Cope");
