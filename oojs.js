@@ -25,3 +25,12 @@ class Playlist {
 
 const gym = new Playlist ("Gym", "Run")
 console.log(gym.addSong())
+
+class Album extends Playlist {
+  constructor (title, songs, artist) {
+  super (title, songs);
+  this.artist = artist;
+}
+}
+
+const funk = new Album ("Funk", "Rhythm", "Charles Brown")
