@@ -28,12 +28,6 @@ var people = [
 //   }
 // })
 
-people.filter(person => {
-  if (person.age < 35){
-    peopleYoungerThan35.push(person)
-  }
-})
-
 peopleYoungerThan35 = people.filter(person => person.age < 35)
 
 
