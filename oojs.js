@@ -10,9 +10,8 @@ class Playlist {
   }
 }
 
+partyJamz = new Playlist("Party Jamz Volume 7", ["That Song", "You Know the One", "Favorite Party Song"])  // Create an instance of the Playlist class.
 
-
-// Create an instance of the Playlist class.
 
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
