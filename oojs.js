@@ -1,3 +1,19 @@
+class Playlist {
+  constructor(title, song){
+    this.title = albumTitle;
+    this.song = songName;
+    favorite = 0;
+  }
+}
+
+
+
+
+
+
+
+
+
 // Define a Playlist class. It should have...
   // A title property that is determined by some input.
   // A songs property that is determined by some input. It should contain multiple songs, each of which can just be a song title.
