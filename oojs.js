@@ -1,22 +1,21 @@
 class Playlist {
-  constructor(title, song){
-    this.title = albumTitle;
+  constructor(title, ){
+    this.title = title;
     this.song = [];
-    favorite = 0;
+    this.favorite = 0;
   }
 }
-addSong(songName){
-  this.song.push(songName);
+addSong(song){
+  this.song.push(song);
+  console.log(this.song);
 }
 
-newPlaylist();
+const playlistName = new Playlist("playlistName")
 
-class Album {
-  constructor(title,song,artist){
-    super(title,song);
-    this.artist = atist;
-}}
-
+class album extends Playlist{
+   constructor(artist){
+    this.artist = artist;
+  }}
 
 
 
