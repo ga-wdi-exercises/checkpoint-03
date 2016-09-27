@@ -18,8 +18,18 @@ class Playlist {
   }
   addSong() {
     this.songs.push(song);
-    console.log(this.songs);
+    // console.log(this.songs);
   }
 }
+class Album extends Playlist {
+  constructor(title, songs, artist) {
+    this.artist = artist;
+  }
+  artist() {
+    return `Hey There! Hello. My name is ${this.artist}`
+  }
 
-const music = new Playlist ("Atom");
+}
+
+const music = new Playlist ("Atom", "Other Atom");
+// const musician = new artist("Jenifer Lopez");
