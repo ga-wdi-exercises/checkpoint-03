@@ -10,9 +10,9 @@ var people = [
 //   peoplesAges.push(person.age)
 // })
 
-people.map (person => {
-	peoplesAges.push(person.age)
-})
+peoplesAges = people.map(person => person.age)
+
+
 
 // Convert the following code to use `.filter`
 
@@ -33,6 +33,8 @@ people.filter(person => {
     peopleYoungerThan35.push(person)
   }
 })
+
+
 
 // Convert the following to use `.forEach`
 
