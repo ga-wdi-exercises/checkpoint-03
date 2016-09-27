@@ -5,7 +5,7 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-peoplesAges = people.map(person => person.name.age)
+peoplesAges = people.map((person)=> person.age)
 
 // people.forEach(person => {
 //   peoplesAges.push(person.age)
