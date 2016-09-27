@@ -19,8 +19,14 @@
   }
 
 // Create an instance of the Playlist class.
-
+Playlist myPlayList = new Playlist();
 // Create an Album class that inherits from Playlist. It should also...
+class Album extends Playlist {
+  constructor(songTitle, genre){
+  this.artist = [];
+}
+}
+
   // Have an artist property that is determined by some input.
 
 // Create an instance of the Album class.
