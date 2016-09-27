@@ -23,7 +23,7 @@ class Playlist {
   }
 }
 
-// workoutMix = new Playlist('Workout Mix');
+workoutMix = new Playlist('Workout Mix');
 //
 // class Album extends Playlist{
 //   constructor(title, artist) {
