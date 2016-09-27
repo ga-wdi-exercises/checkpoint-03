@@ -6,9 +6,10 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-people.forEach(person => {
+people.map(person => {
   peoplesAges.push(person.age)
 })
+return peoplesAges
 
 // Convert the following code to use `.filter`
 
