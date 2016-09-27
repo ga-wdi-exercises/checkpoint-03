@@ -20,5 +20,11 @@ const workoutPlaylist = new Playlist ("workoutPlaylist")
 
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
-
+class Album extends Playlist {
+  constructor(title, artist){
+    super(title);
+    this.artist = artist
+  }
+}
 // Create an instance of the Album class.
+const Meteora = new Album ("Meteora", "Linkin Park")
