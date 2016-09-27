@@ -25,11 +25,11 @@ class Playlist {
 
 workoutMix = new Playlist('Workout Mix');
 //
-// class Album extends Playlist{
-//   constructor(title, artist) {
-//     super(title);
-//     this.artist = artist;
-//   }
-// }
+class Album extends Playlist{
+  constructor(title, artist) {
+    super(title);
+    this.artist = artist;
+  }
+}
 //
 // darkSideOfTheMoon = new Album('Dark Side of the Moon', 'Pink Floyd');
