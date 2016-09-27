@@ -39,4 +39,19 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-var peopleWhoseNamesHaveTheLetterS = people.filter(person => person.name.match("s"))
+// var peopleWhoseNamesHaveTheLetterS = people.filter(person => person.name.match("s"))
+
+// I'm really struggling with doing this one without using .push and without mutating the original and with using .forEach.
+// This answer seems wrong but I couldn't think of a better solutions with the given constraints.
+var peopleWhoseNamesHaveTheLetterS = [];
+var index = 0;
+people.forEach(person => {
+  if (person.name.indexOf('s') >= 0) {
+    let newObject = {};
+    for (let key in person) {
+      newObject[key] = person[key];
+    }
+    peopleWhoseNamesHaveTheLetterS[index] = newObject;
+    index += 1;
+  }
+})
