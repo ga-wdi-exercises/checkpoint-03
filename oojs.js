@@ -1,10 +1,14 @@
 class Playlist {
   constructor(title, song){
     this.title = albumTitle;
-    this.song = songName;
+    this.song = [];
     favorite = 0;
   }
 }
+addSong(songName){
+  this.song.push(songName);
+}
+
 
 
 
