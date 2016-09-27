@@ -10,13 +10,14 @@ class Playlist {
   }
 }
 
-partyJamz = new Playlist("Party Jamz Volume 7", ["That Hit You've Been Hearing", "You Know the One", "Favorite Party Song"])  // Create an instance of the Playlist class.
+partyJamz = new Playlist("Party Jamz Volume 7", ["That Hit You've Been Hearing", "Another One", "Favorite Party Song"])  // Create an instance of the Playlist class.
 
 class Album extends Playlist { // Create an Album class that inherits from Playlist. It should also...
-  constructor(artist) {
-    this.artist = artist;
+  constructor(title, songs, artist) {
+    super(title, songs);
+    this.artist = artist; //
   }
 }
 
-
-// Create an instance of the Album class.
+eno = new Album("Ambient 1: Music for Airports", ["1/1", "2/1", "1/2", "2/2"], "Brian Eno"); // Create an instance of the Album class.
+eno.favorites = 257;
