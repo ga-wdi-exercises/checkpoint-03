@@ -10,6 +10,8 @@ people.forEach(person => {
   peoplesAges.push(person.age)
 })
 
+var peoplesAges = people.map(person => person.age) // got stuck here
+
 // Convert the following code to use `.filter`
 
 var peopleYoungerThan35 = []
@@ -24,6 +26,9 @@ people.forEach(person => {
   }
 })
 
+var peopleYoungerThan35 = people.filter(person => person.age < 35)
+
+
 // Convert the following to use `.forEach`
 
 var people = [
@@ -32,3 +37,11 @@ var people = [
   {name: "Jasmine", age: 39}
 ]
 var peopleWhoseNamesHaveTheLetterS = people.filter(person => person.name.match("s"))
+
+
+people.forEach(person => {
+  if(person.name.match("s"){
+    var peopleWhoseNamesHaveTheLetterS = people.filter(person)
+  }
+})
+// I need more practice with using these and "=>"
