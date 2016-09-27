@@ -13,8 +13,10 @@ const circaSurvive = new Song("Wish Resign")
 
   addSong("Wish Resign");
 
-
-// Create an Album class that inherits from Playlist. It should also...
-  // Have an artist property that is determined by some input.
-
-// Create an instance of the Album class.
+class Album extends Playlist {
+  constructor(title, artist){
+        super(title);
+        this.artist = artist;
+  }
+}
+const record = new Album("Juturna")
