@@ -28,3 +28,4 @@ class Album extends Playlist{
 
 
 // Create an instance of the Album class.
+let albumList = new Album("rainfall");
