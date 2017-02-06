@@ -15,6 +15,7 @@ class Playlist {
 }
 
 // Create an instance of the Playlist class.
+let myPlaylist = new Playlist('Road Rage Antidotes', ['first song', 'second song', 'third song']);
 
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
