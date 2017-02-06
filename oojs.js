@@ -14,6 +14,7 @@
 
 class Playlist{
   constructor(title, songTitle){
+    let favorites =0;
     let songs = [];
     this.title = title;
     songs.push(songTitle);
