@@ -22,5 +22,12 @@ console.log(fridayPlaylist);
 
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
+  class Album extends Playlist {
+    constructor(title, song, favorites, artist){
+      super(title, song, favorites);
+      this.artist = artist;
+    }
+
+  }
 
 // Create an instance of the Album class.
