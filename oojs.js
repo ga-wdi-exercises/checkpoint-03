@@ -4,7 +4,7 @@
   // A favorites property that is initialized at 0. This cannot be set by user input.
   // An addSong method that adds a song to the songs property.
 class Playlist {
-  constructor(title, songs, favorites) {
+  constructor(title, songs) {
     this.title = title
     this.songs = []
     this.favorites = 0
@@ -14,7 +14,7 @@ class Playlist {
   }
 }
 // Create an instance of the Playlist class.
-
+var songInput = new Playlist('Kevin Playlist', 'Gold by Kiarra')
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
 
