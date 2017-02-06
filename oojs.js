@@ -28,4 +28,11 @@ var instance = new Playlist('metalPlaylist', list)
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
 
+class Album extends Playlist {
+  constructor(title, songs, artist){
+    super(title, songs)
+    this.artist = artist
+  }
+}
+
 // Create an instance of the Album class.
