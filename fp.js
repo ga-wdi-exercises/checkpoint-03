@@ -10,10 +10,10 @@ people.forEach(function(person){
   peoplesAges.push(person.age)
 });
 
-function getAge(item, index) {
-  var peoplesAges = people.map
-  })
-}
+function getAge(age) {
+  people.map()
+  }
+
 // Convert the following code to use `.filter`
 
 var peopleYoungerThan35 = []
