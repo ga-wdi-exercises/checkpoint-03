@@ -19,7 +19,12 @@ class Playlist {
       this.favorites = 0;
   }
   plTitle(chose){
-    this.title.push(chose);
-    console.log(`My playlist is called ${chose}`)
+    this.title.push(name);
+    console.log(`My playlist is called ${name}`);
   }
+  songTile(selection){
+    this.song.push(selection);
+    console.log(`Now playing ${selection}`)
+  }
+  
 }
