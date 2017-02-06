@@ -28,4 +28,9 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-var peopleWhoseNamesHaveTheLetterS = people.filter(function(person){return person.name.match("s")});
+people.forEach(function(s){
+ if(people.match("s")){
+    return people.name;
+  }
+
+});
