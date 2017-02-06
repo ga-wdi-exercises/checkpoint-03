@@ -7,7 +7,10 @@ class Playlist {
     this.songs = [];
     // A favorites property that is initialized at 0. This cannot be set by user input.
     this.favorites = 0;
-    // An addSong method that adds a song to the songs property.
+  }
+  // An addSong method that adds a song to the songs property.
+  addSong(song) {
+    this.songs.push(song);
   }
 }
 
