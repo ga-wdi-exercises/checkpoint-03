@@ -6,7 +6,7 @@
   class Playlist {
     constructor(title, song, favorites){
       this.title = title;
-      this.song = [];
+      this.song = song;
       this.favorites = 0;
     }
       addSong(song){
@@ -17,7 +17,8 @@
   }
 
 // Create an instance of the Playlist class.
-let
+let fridayPlaylist = new Playlist("Friday", "24K Magic", 1);
+console.log(fridayPlaylist);
 
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
