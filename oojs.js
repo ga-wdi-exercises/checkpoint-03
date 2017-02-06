@@ -17,7 +17,7 @@
   }
 
 // Create an instance of the Playlist class.
-let fridayPlaylist = new Playlist("Friday", "24K Magic", 1);
+let fridayPlaylist = new Playlist("Friday", "24K Magic", 0);
 console.log(fridayPlaylist);
 
 // Create an Album class that inherits from Playlist. It should also...
@@ -31,3 +31,5 @@ console.log(fridayPlaylist);
   }
 
 // Create an instance of the Album class.
+let album1 = new Album("Weekend", "Happy", 0, "Pharrell");
+console.log(album1);
