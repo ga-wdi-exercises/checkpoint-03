@@ -15,7 +15,7 @@ class Playlist {
     this.favorites = 0;
   }
   addSong(song){
-    this.songs = this.songs.push(song);
+    this.songs.push(song);
   }
 }
 
@@ -32,7 +32,7 @@ class Album extends Playlist {
     this.artist = artist;
   }
   addSong(song){
-    this.songs = this.songs.push(song);
+    this.songs.push(song);
   }
 }
 
