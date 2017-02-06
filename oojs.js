@@ -17,10 +17,15 @@ class Playlist {
 		this.songs = [];
 		this.favorites = favorites
 	}
+
+	addSong(){
+		this.songs.append()
+	}
 }
 
 class Album extends Playlist{
 	constructor(title, songs, artist){
+		super(title, songs);
 		this.artist = artist
 	}
 }
