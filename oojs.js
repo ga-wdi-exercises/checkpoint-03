@@ -2,11 +2,11 @@
 class Playlist{
 	constructor(title, songs = [], favoriteProp = 0){
 		this.title = title
-		this.songs = songs
+		this.songs = [songs]
 		this.favoriteProp = favoriteProp
 	}
 	addSong(songtoAdd){
-		this.property.push(songtoAdd)
+		this.songs.push(songtoAdd)
 	}
 
 }
@@ -17,6 +17,8 @@ class Playlist{
 
 // Create an instance of the Playlist class.
 let theBest = new Playlist("mine",'one, two, three')
+console.log(theBest.songs)
+theBest.addSong('hey baby')
 console.log(theBest.songs)
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
