@@ -24,11 +24,20 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
+/*
 people.forEach(function(person) {
   if(person.age < 35){
     peopleYoungerThan35.push(person)
   }
 });
+*/
+ people.filter(people=>{
+    if(people.age < 35){
+      peopleYoungerThan35.push(people);
+    }
+ });
+ console.log(people);
+ console.log(peopleYoungerThan35);
 
 // Convert the following to use `.forEach`
 
