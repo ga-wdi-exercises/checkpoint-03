@@ -2,10 +2,12 @@
 class Playlist {
   constructor(title, songs, favorites){
     this.title = title
-    this.songs = songs
+    this.songs = []
     {this.favorites = 0}
   }
-  addSong(){}
+  addSong(){
+    this.songs.push(songs)
+  }
 }
   // A title property that is determined by some input.
   // A songs property that is determined by some input. It should contain multiple songs, each of which can just be a song title.
