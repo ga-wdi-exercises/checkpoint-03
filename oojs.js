@@ -17,6 +17,8 @@ class Playlist {
 
 // Create an instance of the Playlist class.
 
+let trailmix = new Playlist("Trail Mix", "Peanuts Theme", "Lose Yourself", "Zombie")
+
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
 
