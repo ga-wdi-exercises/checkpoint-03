@@ -24,6 +24,10 @@ people.forEach(function(person) {
   }
 });
 
+peopleYoungerThan35.filter(function(peopleYoungerThan35){
+  return peopleYoungerThan35.age < 35;
+})
+
 // Convert the following to use `.forEach`
 
 var people = [
