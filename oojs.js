@@ -3,9 +3,9 @@ class Playlist {
   constructor(title, songs){
     this.title = title
     this.songs = []
-    favorites = 0
+    this.favorites = 0
   }
-  addSong(){
+  addSong(songs){
     this.songs.push(songs)
   }
 }
