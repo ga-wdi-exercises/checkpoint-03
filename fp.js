@@ -1,6 +1,6 @@
 // Convert the following code to use `.map`
 
-var peoplesAges = [32,34,39];
+var peoplesAges = [];
 var people = [
   {name: "Jane", age: 32},
   {name: "Jessica", age: 34},
@@ -14,7 +14,7 @@ var people = [
 var peoplesAges = people.map(function(x) {
    return x * 2;
 });
-console.log(peoplesAges)
+console.log(people)
 // Convert the following code to use `.filter`
 
 var peopleYoungerThan35 = []
@@ -27,6 +27,7 @@ people.filter(function(person) {
   if(people.age < 35){
     peopleYoungerThan35.push(person)
   }
+  console.log(peopleYoungerThan35)
 });
 // naysayers.filter(function(naysayer){
 //   return naysayer.age > 300;
