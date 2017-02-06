@@ -6,6 +6,7 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
+people.map(person.age)
 people.forEach(function(person){
   peoplesAges.push(person.age)
 });
@@ -18,6 +19,9 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
+people.filter(function(pizza)){
+  return person.age < 35
+}
 people.forEach(function(person) {
   if(person.age < 35){
     peopleYoungerThan35.push(person)
