@@ -10,6 +10,10 @@ people.forEach(function(person){
   peoplesAges.push(person.age)
 });
 
+var onlyAges = people.map(function(people){
+  return people.age;
+})
+
 // Convert the following code to use `.filter`
 
 var peopleYoungerThan35 = []
