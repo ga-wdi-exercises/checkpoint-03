@@ -30,3 +30,5 @@ var jams = new Playlist("road trip jams", ["water", "believe", "shine"]);
   }
 
 // Create an instance of the Album class.
+
+var stringCheese = new Album("untying the knot", ["water", "believe", "born on the wrong planet"], "String Cheese Incident")
