@@ -10,3 +10,22 @@
   // Have an artist property that is determined by some input.
 
 // Create an instance of the Album class.
+
+
+ class playlist{
+   constructor(title){
+     this.title = title;
+     this.songs = [];
+     this.favorites = 0;
+
+   }
+
+   addSong(songtitle){
+      this.songtitle = songtitle;
+      this.songs.push(`${this.songtitle}`);
+     }
+
+ }
+
+
+ 
