@@ -31,8 +31,10 @@ class Playlist {
     this.song.upshift(songs);
   }
 }
-
-class Album {
-  constructor()
-  super(title, song)
-}
+let playlist = new Playlist(["Dance"], ["Dancing on my own"])
+// class Album {
+//   constructor(title, song, artist){
+//   super(title, song)
+//   this.artist = [];
+// }
+// }
