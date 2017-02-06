@@ -18,7 +18,11 @@
 
 // Create an instance of the Playlist class.
 
+let driving = new Playlist("Long Drive", "California Dreamin")
+
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
+
+  
 
 // Create an instance of the Album class.
