@@ -22,4 +22,11 @@ let trailmix = new Playlist("Trail Mix", "Peanuts Theme", "Lose Yourself", "Zomb
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
 
+class Album extends Playlist {
+  constructor(title, song1, song2, song3, artist) {
+    super(title, song1, song2, song3)
+    this.artist = artist
+  }
+}
+
 // Create an instance of the Album class.
