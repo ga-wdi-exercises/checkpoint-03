@@ -3,6 +3,17 @@
   // A songs property that is determined by some input. It should contain multiple songs, each of which can just be a song title.
   // A favorites property that is initialized at 0. This cannot be set by user input.
   // An addSong method that adds a song to the songs property.
+  class Playlist{
+      constructor(title){
+        this.title = title;
+        songs = [];
+        favorites = 0;
+      }
+      addSong(title){
+        this.title.push(songs);
+        console.log(songs);
+      }
+  }
 
 // Create an instance of the Playlist class.
 
