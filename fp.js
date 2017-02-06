@@ -6,7 +6,7 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-people.forEach(function(person){
+people.map(function(person){
   peoplesAges.push(person.age)
 });
 
