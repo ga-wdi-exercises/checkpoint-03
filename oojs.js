@@ -13,8 +13,11 @@
 
 
 class Playlist{
-  constructor(title){
+  constructor(title, songTitle){
+    let songs = [];
     this.title = title;
+    songs.push(songTitle);
+
   }
 
 
