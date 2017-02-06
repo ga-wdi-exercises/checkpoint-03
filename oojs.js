@@ -27,5 +27,16 @@
 
  }
 
+  let  playlist1  = new playlist("rock");
+  let playlist2 = new playlist("pop");
 
- 
+  console.log(playlist1);
+  console.log(playlist2);
+
+   playlist1.addSong("burning love");
+
+    playlist2.addSong("dangerous");
+    playlist2.addSong("beatit");
+    playlist2.addSong("Thriller");
+
+    
