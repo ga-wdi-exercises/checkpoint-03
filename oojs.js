@@ -27,3 +27,4 @@ class Album extends Playlist{
 }
 
 // Create an instance of the Album class.
+const beatleAlbum1 = new Album("Rubber Soul");
