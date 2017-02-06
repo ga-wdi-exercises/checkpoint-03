@@ -10,3 +10,26 @@
   // Have an artist property that is determined by some input.
 
 // Create an instance of the Album class.
+class Playlist {
+  constructor(title, songs) {
+    this.title = title;
+    this.songs = [];
+    this.favorites = 0;
+  }
+  addSong() {
+    this.songs.push(song);
+    // console.log(this.songs);
+  }
+}
+class Album extends Playlist {
+  constructor(title, songs, artist) {
+    this.artist = artist;
+  }
+  artist() {
+    return `Hey There! Hello. My name is ${this.artist}`
+  }
+
+}
+
+const music = new Playlist ("Atom", "Other Atom");
+// const musician = new artist("Jenifer Lopez");
