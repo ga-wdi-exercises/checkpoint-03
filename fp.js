@@ -10,6 +10,10 @@ people.forEach(function(person){
   peoplesAges.push(person.age)
 });
 
+function getAge(item, index) {
+  var peoplesAges = people.map
+  })
+}
 // Convert the following code to use `.filter`
 
 var peopleYoungerThan35 = []
@@ -24,6 +28,13 @@ people.forEach(function(person) {
   }
 });
 
+function checkYoung(age){
+  if(person.age < 35){
+    people.filter(age)
+  }
+}
+
+
 // Convert the following to use `.forEach`
 
 var people = [
@@ -32,3 +43,8 @@ var people = [
   {name: "Jasmine", age: 39}
 ]
 var peopleWhoseNamesHaveTheLetterS = people.filter(function(person){return person.name.match("s")});
+
+function haveS (name){
+  people.forEach(function(person){
+    return person.name.match("s")});
+}
