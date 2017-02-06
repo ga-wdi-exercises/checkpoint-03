@@ -31,3 +31,4 @@ class Album extends Playlist {
 // Create an instance of the Album class.
 let album1 = new Album('Vivo',"Viva La Vida","Coldplay")
 album1.singOn()
+// hello
