@@ -18,7 +18,7 @@ class Playlist {
 let myPlaylist = new Playlist('some playlist', ['first song', 'second song']);
 
 // Create an Album class that inherits from Playlist. It should also...
-class Album {
+class Album extends Playlist {
   // Have an artist property that is determined by some input.
   constructor(title, songs, artist) {
     super(title, songs);
