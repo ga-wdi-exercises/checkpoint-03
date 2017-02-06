@@ -15,11 +15,27 @@
 class Playlist{
   constructor(title, songTitle){
     let favorites =0;
-    let songs = [];
     this.title = title;
-    songs.push(songTitle);
-
+    this.songs = [];
+    this.songs.push(songTitle);
   }
-
+  addSong(songTitle){
+    this.songs.push(songTitle);
+  }// end add song
 
 }//end class
+
+
+let stuff = new Playlist('hello','goodbye');
+
+
+class Album extends Playlist{
+  constructor(title, songTitle, artist){
+    super(title,songTitle);
+    this.artist = artist;
+  }//end constructor
+
+}//end class
+
+
+let newStuff = new Album('hello','goodbye', 'myfriend');
