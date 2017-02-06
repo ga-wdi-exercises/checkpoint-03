@@ -6,19 +6,28 @@
 
   var Playlist {
     constructor(title, songs, favorites){
-      this.title =
-      this.songs = "Dancehall Queen", "Mash up de place", "Bubble Time"),
-      this.favorites= 0,
+      this.title = title;
+      this.songs = songs;
+      this.favorites= 0;
       }
     addSong: function() {
       this.songs ++;
       return 'whine up!';
     }
-  };
+  }
 
 // Create an instance of the Playlist class.
+  let Dancehall = new Playlist('Danceup', ('Bubble Time', 'Mash up de place', 0));
 
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
 
+  class Album extends Playlist {
+    constructor(title, songs, favorites, artist){
+      super(title, songs, favorites)
+      this.artist = artist;
+    }
+  }
+
 // Create an instance of the Album class.
+let Small-Things = new Album('he', ('she', 'it'), 4, Blink 182); 
