@@ -15,8 +15,9 @@ class Playlist {
   // An addSong method that adds a song to the songs property.
 
 // Create an instance of the Playlist class.
-
+var workoutMix = new Playlist('workoutMix')
 // Create an Album class that inherits from Playlist. It should also...
+
   // Have an artist property that is determined by some input.
 
 // Create an instance of the Album class.
