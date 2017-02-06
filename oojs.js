@@ -4,7 +4,7 @@ class Playlist {
     // A title property that is determined by some input.
     this.title = title;
     // A songs property that is determined by some input. It should contain multiple songs, each of which can just be a song title.
-    this.songs = [];
+    this.songs = songs;
     // A favorites property that is initialized at 0. This cannot be set by user input.
     this.favorites = 0;
   }
