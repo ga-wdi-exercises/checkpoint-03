@@ -10,3 +10,29 @@
   // Have an artist property that is determined by some input.
 
 // Create an instance of the Album class.
+
+class Playlist {
+	constructor(title, songs, favorites){
+		this.title = title;
+		this.songs = [];
+		this.favorites = favorites
+	}
+
+	addSong(song){
+		this.songs.push(song);
+		console.log(this.songs);
+	}
+}
+
+class Album extends Playlist{
+	constructor(title, songs, artist){
+		super(title, songs);
+		this.artist = artist
+	}
+}
+
+const pearlJam = new Album("myJams", "Evenflow", "PearlJam");
+console.log(pearlJam);
+
+
+///Not quite there but need to move on to the second question. I love checkpoints.
