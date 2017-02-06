@@ -34,4 +34,6 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-var peopleWhoseNamesHaveTheLetterS = people.filter(function(person){return person.name.match("s")});
+// var peopleWhoseNamesHaveTheLetterS = people.filter(function(person){return person.name.match("s")});
+
+var PeopleWhoseNamesHaveTheLetterS = people.filter((x,i)=>people[i].name.match('s'))
