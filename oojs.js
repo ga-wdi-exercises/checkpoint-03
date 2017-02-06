@@ -13,7 +13,9 @@
 
 
 class Playlist{
-  
+  constructor(title){
+    this.title = title;
+  }
 
 
 }//end class
