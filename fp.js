@@ -6,12 +6,12 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-people.forEach(function(person){
-  peoplesAges.push(person.age)
-});
+// people.forEach(function(person){
+//   peoplesAges.push(person.age)
+// });
 
-var peoplesAges = people.map(function(x) {
-   return people.age + 2;
+var peoplesAges = people.map(){
+   return people.age;
    });
 
 // Convert the following code to use `.filter`
@@ -41,7 +41,7 @@ var people = [
 ]
 var peopleWhoseNamesHaveTheLetterS = people.filter(function(person){return person.name.match("s")});
 
-var peopleWhoseNamesHaveTheLetterS = people.forEach(function(person){
-  var sIncluded = people.find('s');
-  peoplesAges.push(sIncluded);
-});
+// var peopleWhoseNamesHaveTheLetterS = people.forEach(function(person){
+//   var sIncluded = people.find('*s*');
+//   peoplesAges.push(sIncluded);
+// });
