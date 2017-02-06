@@ -6,18 +6,29 @@
 
 class Playlist {
   constructor(title){
-    this.title = title
-    this.songs = []
-    this.favorites = 0
+    this.title = title;
+    this.songs = [];
+    this.favorites = 0;
   }
   addSong(song){
-    this.songs.push(song)
+    this.songs.push(song);
   }
 }
 
 // Create an instance of the Playlist class.
 
+let jazzMusic = new Playlist("Jazz")
+
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
 
+class Album extends Playlist {
+  constructor(title, artist){
+    super(title);
+    this.artist = artist;
+  }
+}
+
 // Create an instance of the Album class.
+
+let taylorSwift = new Album("Red","Taylor Swift")
