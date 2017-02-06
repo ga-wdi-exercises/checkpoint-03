@@ -10,3 +10,14 @@
   // Have an artist property that is determined by some input.
 
 // Create an instance of the Album class.
+
+const Playlist = {
+  songs: "space-bound", "love the way you lie", "mirrors",
+
+  // add song method
+
+  var add("God bless america");
+
+  
+
+}
