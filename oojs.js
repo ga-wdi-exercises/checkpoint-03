@@ -36,3 +36,5 @@ class Album extends Playlist {
 }
 
 // Create an instance of the Album class.
+
+var blackAlbum = new Album('black', list, 'metallica')
