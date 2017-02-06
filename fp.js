@@ -10,7 +10,7 @@ var people = [
 //   peoplesAges.push(person.age)
 // });
 
-var pplsAges = people.map(function(person){return person.age})
+var eachAge = people.map(function(person){return person.age})
 console.log(eachAge)
 // Convert the following code to use `.filter`
 
@@ -39,7 +39,7 @@ var people = [
 var peopleWithS = []
 people.forEach(function(person){
   var split = person.split("")
-  for (i = 0, i < split.length, i++) {
+  for (i = 0; i < split.length; i++) {
     if (split[i].indexOf("s") != -1) {
       peopleWithS.push(person)
     }
