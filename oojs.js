@@ -1,3 +1,24 @@
+class Playlist {
+  constructor(title, ){
+    this.title = title;
+    this.song = [];
+    this.favorite = 0;
+  }
+}
+addSong(song){
+  this.song.push(song);
+  console.log(this.song);
+}
+
+const playlistName = new Playlist("playlistName")
+
+class album extends Playlist{
+   constructor(artist){
+    this.artist = artist;
+  }}
+
+
+
 // Define a Playlist class. It should have...
   // A title property that is determined by some input.
   // A songs property that is determined by some input. It should contain multiple songs, each of which can just be a song title.
