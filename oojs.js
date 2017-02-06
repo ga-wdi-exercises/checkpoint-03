@@ -5,9 +5,13 @@
     // An addSong method that adds a song to the songs property.
 
   class Playlist {
-    constructor(title, songs) {
+    constructor(title, songs, songs2, songs3){
       this.title = title;
       this.songs = [];
+      this.songs.push(songs);
+      this.songs.push(songs2);
+      this.songs.push(songs3);
+      // songs.forEach => this.songs.push(songs);
       this.favorites = 0;
     }
     addSong(input){
@@ -17,7 +21,7 @@
 
   // Create an instance of the Playlist class.
 
-  let mikePlaylist = new Playlist('mike_Playlist', 'song1');
+  let mikePlaylist = new Playlist('mike_Playlist', 'song1', 'song2', 'song3');
 
   // Create an Album class that inherits from Playlist. It should also...
     // Have an artist property that is determined by some input.
