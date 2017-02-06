@@ -27,9 +27,8 @@ var people = [
 //     peopleYoungerThan35.push(person)
 //   }
 // });
-
-// people.filter(function(age) {return peopleYoungerThan35.push(age)})
 // console.log(peopleYoungerThan35);
+peopleYoungerThan35 = people.filter(function(person) {return person.age < 35});
 
 // Convert the following to use `.forEach`
 
@@ -41,8 +40,5 @@ var people = [
 // var peopleWhoseNamesHaveTheLetterS = people.filter(function(person){
 //                                                       return person.name.match("s")
 //                                                     });
-
-people.forEach(function(person) {
-  console.log(person.name.match("s"));
-  return person.name.match("s");
-});
+people.forEach(function(person) {return person.name.match("s")});
+  // console.log(person.name.match("s"));
