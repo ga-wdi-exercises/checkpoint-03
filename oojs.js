@@ -20,9 +20,16 @@
 
 let driving = new Playlist("Long Drive", "California Dreamin")
 
+
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
 
-  
+  class Album extends Playlist {
+    constructor(albumName, artist) {
+      super(title, songs)
+      this.albumName = albumName
+      this.artist = artist
+    }
+  }
 
 // Create an instance of the Album class.
