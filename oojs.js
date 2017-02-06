@@ -4,6 +4,10 @@
   // A favorites property that is initialized at 0. This cannot be set by user input.
   // An addSong method that adds a song to the songs property.
 
+class Playlist {
+  
+}
+
 // Create an instance of the Playlist class.
 
 // Create an Album class that inherits from Playlist. It should also...
