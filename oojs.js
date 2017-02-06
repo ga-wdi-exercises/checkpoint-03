@@ -27,5 +27,5 @@ class Album extends Playlist {
   }
 }
 
-// // Create an instance of the Album class.
-// const goodAlbum = new Playlist("Midnight Marauders", ["Steve Biko (Stir It Up)", 	"Award Tour", ])
+// Create an instance of the Album class.
+const goodAlbum = new Playlist("Midnight Marauders", ["Steve Biko (Stir It Up)", 	"Award Tour", "Oh My God", "We Can Get Down", "Electric Relaxation"], "Tribe Called Quest");
