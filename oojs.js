@@ -17,7 +17,7 @@ class Playlist {
 
 
 // Create an instance of the Playlist class.
-
+var jams = new Playlist("road trip jams", ["water", "believe", "shine"]);
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
 
