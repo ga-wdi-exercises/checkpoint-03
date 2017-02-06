@@ -22,7 +22,7 @@
 // adding a method that adds a song to the playlist
    addSong(songtitle){
       this.songtitle = songtitle;
-      this.songs.push(`${songtitle}`);
+      this.songs.push(`${this.songtitle}`);
      }
 
  }
