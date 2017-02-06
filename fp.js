@@ -18,8 +18,10 @@ var people = [
   {name: "Jasmine", age: 39}
 ]
 var peopleYoungerThan35 = people.filter(function(person) {
-  return person.age < 35
-};
+  if(person.age < 35){
+    return person.age
+  }
+});
 
 // Convert the following to use `.forEach`
 
@@ -28,4 +30,8 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-var peopleWhoseNamesHaveTheLetterS = people.forEach(function(person){return person.name.match("s")});
+var peopleWhoseNamesHaveTheLetterS = people.forEach(function(people){
+  if(people.name.indexOf("s") > -1){
+    return people.name
+  }
+});

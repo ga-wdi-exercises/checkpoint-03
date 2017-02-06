@@ -13,21 +13,20 @@
 
 class Playlist {
   constructor(title, songs, favorites){
-    this.title = title
-    this.songs = []
-    this.favorites = 0
+    this.title = title;
+    this.songs = [];
+    this.favorites = 0;
   }
   addSong(newSong){
     this.songs.push(newSong)
   }
 }
-const closingTime = new Playlist("Closing Time")
+const closingTime = new Playlist("Closing Time", ["bye bye bye"], 0);
 
-console.log(Playlist.songs)
 
 class Album extends Playlist{
-  super(title, songs, favorites)
   constructor(title, songs, favorites, artist){
+    super(title, songs, favorites)
     this.artist = artist
   }
 
