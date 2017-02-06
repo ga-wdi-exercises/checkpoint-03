@@ -24,7 +24,15 @@ class Playlist {
   }
   songTile(selection){
     this.song.push(selection);
-    console.log(`Now playing ${selection}`)
+    console.log(`Now playing ${selection}`);
   }
-  
+  addSong(songs){
+    this.songs = []
+    this.song.upshift(songs);
+  }
+}
+
+class Album {
+  constructor()
+  super(title, song)
 }
