@@ -23,15 +23,15 @@ var people = [
 ]
 
 let filtered = people.filter(function(el){
-  el.age > 35})
+  return el.age > 35})
 console.log(filtered)
 
 
 // Convert the following to use `.forEach`
 
-// var people = [
-//   {name: "Jane", age: 32},
-//   {name: "Jessica", age: 34},
-//   {name: "Jasmine", age: 39}
-// ]
-// var peopleWhoseNamesHaveTheLetterS = people.filter(function(person){return person.name.match("s")});
+var people = [
+  {name: "Jane", age: 32},
+  {name: "Jessica", age: 34},
+  {name: "Jasmine", age: 39}
+]
+var peopleWhoseNamesHaveTheLetterS = people.filter(function(person){return person.name.match("s")});
