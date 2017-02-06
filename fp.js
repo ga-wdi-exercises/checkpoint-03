@@ -10,7 +10,7 @@ people.forEach(function(person){
   peoplesAges.push(person.age)
 });
 
-var eachAge = people.map(function(person){return person.age})
+var pplsAges = people.map(function(person){return person.age})
 console.log(eachAge)
 // Convert the following code to use `.filter`
 
