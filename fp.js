@@ -36,5 +36,11 @@ var people = [
 ]
 // var peopleWhoseNamesHaveTheLetterS = people.filter(function(person){return person.name.match("s")});
 
-var PeopleWhoseNamesHaveTheLetterS = [];
-people.forEach((x,i)=>{if(people[i].name.match('s')){PeopleWhoseNamesHaveTheLetterS.push(people[i])}})
+// var PeopleWhoseNamesHaveTheLetterS = [];
+// people.forEach((x,i)=>{if(people[i].name.match('s')){PeopleWhoseNamesHaveTheLetterS.push(people[i])}})
+var PeopleWhoseNamesHaveTheLetterS = SFilter(people)
+function SFilter (firstArray) {
+  let returnArray = []
+  firstArray.forEach((x,i)=>{if(firstArray[i].name.match('s')){returnArray.push(firstArray[i])}})
+  return returnArray
+}
