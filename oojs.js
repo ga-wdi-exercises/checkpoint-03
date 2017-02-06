@@ -21,7 +21,7 @@ class Playlist {
 
 class Album extends Playlist {
   constructor(title,song,artist){
-    super();
+    super(title,song);
     this.title = title;
     if (song.constructor === Array ){ //allows user to add multiple songs at once in an array
     this.songs = song;}
