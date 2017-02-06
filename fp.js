@@ -6,13 +6,14 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-people.forEach(function(person){
-  peoplesAges.push(person.age)
-  // console.log(peoplesAges)
-});
+// people.forEach(function(person){
+//   peoplesAges.push(person.age)
+//   console.log(peoplesAges)
+// });
 
-// people.map(peoplesAges)
-// console.log(people)
+personAges = people.map(function(obj) {
+  return  obj.age;
+});
 
 // Convert the following code to use `.filter`
 
