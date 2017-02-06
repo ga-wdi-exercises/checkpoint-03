@@ -6,7 +6,7 @@
 class Playlist {
   constructor(title, songs) {
     this.title = title
-    this.songs = []
+    this.songs = [songs]
     this.favorites = 0
   }
   addSong(newSong) {
@@ -14,8 +14,14 @@ class Playlist {
   }
 }
 // Create an instance of the Playlist class.
-var songInput = new Playlist('Kevin Playlist', 'Gold by Kiarra')
+var songInput = new Playlist('Kevin Playlist', 'Gold')
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
-
+class Album extends Playlist {
+  constructor(title,songs, artist) {
+    super(title, songs)
+    this.artist = artist
+  }
+}
 // Create an instance of the Album class.
+var newArtist = new Album('Kevin Playlist', 'Gold', 'Kiarra')
