@@ -1,14 +1,16 @@
 // Convert the following code to use `.map`
-
 var peoplesAges = []
+
 var people = [
   {name: "Jane", age: 32},
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-people.forEach(person => {
-  peoplesAges.push(person.age)
-})
+
+// function peopleMap() {
+//   var peoplesAges = people.map(age);
+// }
+
 
 // Convert the following code to use `.filter`
 
@@ -24,6 +26,11 @@ people.forEach(person => {
   }
 })
 
+function isYoungerThan(age) {
+  return people.age <35;
+  var peopleYoungerThan35 = people.filter(isYoungerThan);
+}
+
 // Convert the following to use `.forEach`
 
 var people = [
@@ -31,4 +38,11 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-var peopleWhoseNamesHaveTheLetterS = people.filter(person => person.name.match("s"))
+
+peopleWhoseNamesHaveTheLetterS = []
+
+people.forEach(person => {
+  if (person.name.match("s")){
+    peopleWhoseNamesHaveTheLetterS.push(person)
+  }
+})
