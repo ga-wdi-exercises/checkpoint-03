@@ -70,9 +70,6 @@ var peopleYoungerThan35 = people.filter(youngerThan35)
 //Which seems a more layered version of what I have. I'm not sure what I'm doing wrong.
 
 
-
-
-
 // Convert the following to use `.forEach`
 
 var people = [
@@ -80,4 +77,10 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-var peopleWhoseNamesHaveTheLetterS = people.filter(function(person){return person.name.match("s")});
+// var peopleWhoseNamesHaveTheLetterS = people.filter(function(person){return person.name.match("s")});
+
+var peopleWhoseNamesHaveTheLetterS = people.forEach(function(person) {
+  if(person.name.match("s")){
+    peopleWhoseNamesHaveTheLetterS.push(person)
+  }
+});
