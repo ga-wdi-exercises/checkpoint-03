@@ -10,3 +10,20 @@
   // Have an artist property that is determined by some input.
 
 // Create an instance of the Album class.
+
+
+var Playlist {
+  title: "Graduation"
+  songs:"Good Morning", "Homecoming", "Stronger", "Champion"
+  favorites: "0"
+ addSong {
+
+  }
+  var Playlist2 {
+    Album:
+  }
+
+
+
+
+}
