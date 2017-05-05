@@ -10,3 +10,15 @@
   // Have an artist property that is determined by some input.
 
 // Create an instance of the Album class.
+
+
+
+
+
+
+var album []
+var songs [
+  title: "Oh No" group: Jack&Eliza
+  title: "Quarter Past the Hour" group: Jack&Eliza
+  title: "One Too Far" group: Jack&Eliza
+]
