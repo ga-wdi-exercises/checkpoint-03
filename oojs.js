@@ -25,4 +25,13 @@ class Playlist {
 
 }
 
-let drake = new Playlist('drake', ['Hotline Bling', 'One Dance'])
+class Album extends Playlist {
+    constructor(title, songs, artist) {
+        this.artist = artist:
+        super(title, songs)
+    }
+
+}
+
+let views = new Album('views', ['One Dance', 'Controlla', 'Pop Style'], 'Drake')
+let drake = new Playlist('drizzy', ['Hotline Bling', 'One Dance'])
