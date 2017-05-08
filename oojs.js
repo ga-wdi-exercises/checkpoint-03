@@ -22,4 +22,12 @@ const playlist = new Playlist("A", "B")
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
 
+class Album extends Playlist {
+  constructor(title, song, artist){
+    super(title, song);
+    this.artist = artist;
+  }
+}
+
+
 // Create an instance of the Album class.
