@@ -31,7 +31,9 @@ people.forEach(function(person) {
   }
 });
 
-
+function myFunction(){
+  document.getElementbyId("demo").innerHTML = ages.filter(checkPerson)
+}
 
 // Convert the following to use `.forEach`
 
