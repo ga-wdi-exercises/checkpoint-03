@@ -19,8 +19,9 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-people.filter(function(person) {
-  return peopleYoungerThan35 = person.age < 35
+
+peopleYoungerThan35= people.filter(function(person) {
+  return person.age < 35
 })
 
 // Convert the following to use `.forEach`
