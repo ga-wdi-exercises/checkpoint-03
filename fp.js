@@ -30,6 +30,10 @@ people.forEach(function(person) {
   }
 });
 
+var peopleYoungerThan35 = people.filter(function(elem, index, array) {
+  return people.name.age < 35
+})
+
 // Convert the following to use `.forEach`
 
 var people = [
