@@ -6,7 +6,9 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ];
-var peoplesAges = people.map(people);
+var peoplesAges = people.map((people) => {
+  return peoplesAges;
+});
 
 
 // Convert the following code to use `.filter`
