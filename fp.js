@@ -1,14 +1,11 @@
 // Convert the following code to use `.map`
 
-var peoplesAges = []
+var peoplesAges = people.map();
 var people = [
   {name: "Jane", age: 32},
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
-]
-people.forEach(function(person){
-  peoplesAges.push(person.age)
-});
+];
 
 // Convert the following code to use `.filter`
 
