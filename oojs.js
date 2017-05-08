@@ -23,7 +23,7 @@ class Playlist{
 }
 
 
-let playlist1 = new Playlist('pop', 'poppin song',)
+let playlist1 = new Playlist('pop', {'poppin song', 'poppin song'})
 
 class Album extends Playlist{
   constructor (title, songs, artist){
@@ -31,4 +31,4 @@ class Album extends Playlist{
     this.artist= artist;
 }
 
-let album1 = new Album ('wishing well', 'stuck in the well', 'Alice')
+let album1 = new Album ('wishing well', {'stuck in the well', 'help get me outta here'}, 'Alice')
