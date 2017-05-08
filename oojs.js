@@ -10,3 +10,32 @@
   // Have an artist property that is determined by some input.
 
 // Create an instance of the Album class.
+
+
+
+
+
+
+class Playlist {
+  constructor(title,songs,favorites)
+  this.albumTitle = Oh No;
+  this.songs = Oh No, Quarter Past the hour, One too Far;
+  this.favorites = 0
+
+get Song(){
+return.this = addSong
+}
+
+
+
+
+class Album {
+  constructor(artist)
+  this.artist=Jack&Eliza
+
+  class.Album = newInstance()
+  getConstructor()="artist"
+  newInstance
+}
+
+s
