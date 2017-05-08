@@ -12,15 +12,22 @@
     }
     addSong(song) {
       this.songs.push(song)
-      
     }
-
-
   }
 
 // Create an instance of the Playlist class.
 
+const jams = new Playlist("My Jams", "Total Eclipse of the Heart")
+
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
+
+  class Album extends Playlist {
+    constructor(title, song, artist) {
+      super(title, song);
+      this.artist = artist;
+    }
+  
+  }
 
 // Create an instance of the Album class.
