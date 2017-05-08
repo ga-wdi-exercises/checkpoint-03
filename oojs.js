@@ -31,3 +31,5 @@ console.log(mondayPlaylist);
   }
 
 // Create an instance of the Album class.
+let album8 = new Album("Today", "Is", 8, "Monday");
+console.log(album8);
