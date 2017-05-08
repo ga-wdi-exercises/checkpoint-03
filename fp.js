@@ -6,9 +6,13 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-people.forEach(function(person){
-  peoplesAges.push(person.age)
-});
+// people.forEach(function(person){
+//   peoplesAges.push(person.age)
+// });
+
+peopleAges = people.map((person) => {
+  return person.age
+})
 
 // Convert the following code to use `.filter`
 
@@ -18,11 +22,15 @@ var people = [
   {name: "Jessica", age: 34},
   {name: "Jasmine", age: 39}
 ]
-people.forEach(function(person) {
-  if(person.age < 35){
-    peopleYoungerThan35.push(person)
-  }
-});
+// people.forEach(function(person) {
+//   if(person.age < 35){
+//     peopleYoungerThan35.push(person)
+//   }
+// });
+
+peopleYoungerThan35 = people.filter((person) => {
+  person.age < 35
+})
 
 // Convert the following to use `.forEach`
 
