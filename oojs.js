@@ -5,7 +5,7 @@
   // An addSong method that adds a song to the songs property.
 
 class Playlist {
-  constructor (playlistName, song, favorite){
+  constructor (playlistName, song){
     this.playlistName = playlistName;
     this.song = [];
     this.favorite = 0;
@@ -22,5 +22,12 @@ coding.addSong("Amazing Grace");
 
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
+
+  class Album extends Playlist {
+    constructor (playlistName, song, artist){
+      super(playlistName, song);
+      this.artist = artist;
+    }
+  }
 
 // Create an instance of the Album class.
