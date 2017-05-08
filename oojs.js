@@ -27,7 +27,8 @@ const jams = new Playlist("My Jams", "Total Eclipse of the Heart")
       super(title, song);
       this.artist = artist;
     }
-  
   }
+
+  const michaelJackson = new Album("MJ's 80s hits", "Man in the Mirror", "Michael Jackson")
 
 // Create an instance of the Album class.
