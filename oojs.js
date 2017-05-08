@@ -13,14 +13,22 @@
 class Playlist{
   constructor (title, songs){
     this.title = title;
-    this.songs = {song};
+    this.songs = {newSong};
     this.favorites = 0;
 }
 
   addSong(song){
-    this.songs.push(song)
+    this.songs.push(newSong)
 
 }
 
 
-var playlist1 = new Playlist('pop', 'poppin song',)
+let playlist1 = new Playlist('pop', 'poppin song',)
+
+class Album extends Playlist{
+  constructor (title, songs, artist){
+    super(title, songs);
+    this.artist= artist;
+}
+
+let album1 = new Album ('wishing well', 'stuck in the well', 'Alice')
