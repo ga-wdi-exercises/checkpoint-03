@@ -5,7 +5,7 @@
   // An addSong method that adds a song to the songs property.
   class Playlist {
   	constructor(title, songs_array ) {
-  		this.title: title,
+  		this.title = title,
   		this.songs = songs_array,
   		this.favorites = 0
   	}
@@ -21,8 +21,8 @@ let sadSongs = new Playlist('Sad Songs', ['Cry Baby', 'Tear in my Beer'])
   // Have an artist property that is determined by some input.
 class Album extends Playlist {
 	constructor(title, songs_array, artist) {
+		super(title, songs_array),
 		this.artist = artist
-		super(title, songs_array)
 	}
 }
 // Create an instance of the Album class.
