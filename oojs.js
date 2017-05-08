@@ -3,13 +3,6 @@
 // A songs property that is determined by some input. It should contain multiple songs, each of which can just be a song title.
 // A favorites property that is initialized at 0. This cannot be set by user input.
 // An addSong method that adds a song to the songs property.
-
-// Create an instance of the Playlist class.
-
-// Create an Album class that inherits from Playlist. It should also...
-// Have an artist property that is determined by some input.
-
-// Create an instance of the Album class.
 class Playlist {
   constructor(title, songs) {
     this.title = title;
@@ -21,11 +14,18 @@ class Playlist {
     this.songs.push(song)
   }
 }
-
-Pandora = new Playlist('Imagine Dragons', ['Radioactive', 'Demons'])
-console.log(Pandora);
-Pandora.addSong('Its Time')
-console.log(Pandora);
-
+// Create an instance of the Playlist class.
+pandora = new Playlist('Alternative Rock', ['Radioactive', 'Demons'])
+console.log(pandora);
+// Create an Album class that inherits from Playlist. It should also...
+// Have an artist property that is determined by some input.
+class Album extends Playlist {
+  constructor(title, songs, artist) {
+    super(title, songs);
+    this.artist = artist;
+  }
 }
-}
+
+// Create an instance of the Album class.
+radioactive = new Album('Radioactive', ['Radioactive', 'Demons', 'Its Time'], 'Imagine Dragons')
+console.log(radioactive);
