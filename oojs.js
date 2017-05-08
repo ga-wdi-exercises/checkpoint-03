@@ -7,7 +7,7 @@
 class Playlist {
   constructor(title, song) {
     this.title = title;
-    this.song = [];
+    this.song = [song];
     this.favorites = 0;
   }
   addSong(song){
@@ -31,3 +31,4 @@ class Album extends Playlist {
 
 
 // Create an instance of the Album class.
+const alphabet = new Album("A", "B", "Alphabet")
