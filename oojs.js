@@ -29,3 +29,4 @@ class Album extends Playlist {
 }
 
 // Create an instance of the Album class.
+const demondays = new Album("Demon Days", "Gorillaz")
