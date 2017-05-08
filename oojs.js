@@ -27,7 +27,7 @@ class Playlist {
 
 class Album extends Playlist {
     constructor(title, songs, artist) {
-        this.artist = artist:
+        this.artist = artist;
         super(title, songs)
     }
 
