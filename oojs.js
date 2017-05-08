@@ -19,5 +19,12 @@ let sadSongs = new Playlist('Sad Songs', ['Cry Baby', 'Tear in my Beer'])
 
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
-
+class Album extends Playlist {
+	constructor(title, songs_array, artist) {
+		this.artist = artist
+		super(title, songs_array)
+	}
+}
 // Create an instance of the Album class.
+
+let owen = new Album("At home with Owen", ["Bird in hand", "Use your words"], "Owen")
