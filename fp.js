@@ -36,8 +36,7 @@ var peopleWhoseNamesHaveTheLetterS = people.filter(function(person){return perso
 
 var peopleWhoseNamesHaveTheLetterS = []
 people.forEach(function(person){
-//I know this isn't the syntax, and forget if there is even a function for this.  might have to parse names and loop through to see if each one is equal to "s"?
-if(person.name includes "s"){
+if(person.name.match("s")){
   peopleWhoseNamesHaveTheLetterS.push(person)
   }
 });
