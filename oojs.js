@@ -24,3 +24,16 @@ class Playlist {
 		this.songs.push(song)
 	}
 }
+
+let list1 = Playlist.new("WorkoutMix", "PumpedUpJams")
+
+class Album < Playlist {
+	attr.accessor(title, songs, artist)
+
+	def initialize(title, songs, artist) {
+		super (title, songs),
+		this.artist = artist
+	}
+}
+
+let album1 = Album.new("Deftones")
