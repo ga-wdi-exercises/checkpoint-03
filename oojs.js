@@ -10,3 +10,8 @@
   // Have an artist property that is determined by some input.
 
 // Create an instance of the Album class.
+class Playlist {
+  constructor(title, songs) {
+    
+  }
+}
