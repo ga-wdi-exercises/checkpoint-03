@@ -1,11 +1,13 @@
 // Define a Playlist class. It should have...
 class Playlist {
   constructor(title,songs){
-  this.title = title;
-  this.songs = []; 
-  this.favorites = 0;
+    this.title = title;
+    this.songs = [];
+    this.favorites = 0;
   }
-  this.addSong = () =>
+  addSong(song){
+    this.songs.push(song);
+   }
 
 }
 
