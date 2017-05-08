@@ -24,3 +24,5 @@ class Playlist {
 }
 
 }
+
+let drake = new Playlist('drake', ['Hotline Bling', 'One Dance'])
