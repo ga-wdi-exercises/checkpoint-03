@@ -24,3 +24,4 @@ class Album extends Playlist {
   // Have an artist property that is determined by some input.
 
 // Create an instance of the Album class.
+const PersonalJesus = new Album("Depeche Mode", "Personal", ["Policy of Truth", "Wrong", "Enjoy the Silence"]);
