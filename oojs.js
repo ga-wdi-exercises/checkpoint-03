@@ -16,6 +16,11 @@ class Playlist {
 // Create an instance of the Playlist class.
 const metallica = new Playlist("Garage Days", ["One", "And Justice for All", "Seek and Destroy"]);
 // Create an Album class that inherits from Playlist. It should also...
+class Album extends Playlist {
+  constructor(artist, title, songs) {
+    this.artist = artist;
+  }
+}
   // Have an artist property that is determined by some input.
 
 // Create an instance of the Album class.
