@@ -29,7 +29,7 @@ var people = [
 // });
 
 peopleYoungerThan35 = people.filter((person) => {
-  person.age < 35
+  return person.age < 35
 })
 
 // Convert the following to use `.forEach`
