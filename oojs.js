@@ -12,10 +12,21 @@
 // Create an instance of the Album class.
 
 class Playlist{
-  constructor(title, song)
+  constructor(title, song){
     this.title = title;
     this.song = song;
-}
-addSong(){
+    }
+  addSong(){
   return `Your song was added to the Playlist ${this.song}`;
+  }
+}
+const music = new Plalist("Music");
+music.addSong();
+
+class Album{
+  constructor(artist, song){
+    super(artist, song);
+    this.artist = artist;
+    this.song = song;
+  }
 }
