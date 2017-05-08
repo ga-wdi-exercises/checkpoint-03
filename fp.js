@@ -11,7 +11,6 @@ people.forEach(function(person){
 });
 
 // ANSWER:
-
 var peoplesAges = people.map(function(person){
   return person.age
 })
