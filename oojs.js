@@ -16,9 +16,21 @@
 
 
 
-var album []
-var songs [
-  title: "Oh No" group: Jack&Eliza
-  title: "Quarter Past the Hour" group: Jack&Eliza
-  title: "One Too Far" group: Jack&Eliza
-]
+class Playlist {
+  constructor(albumTitle,songs,favorites)
+  this.albumTitle = Oh No;
+  this.songs = Oh No, Quarter Past the hour, One too Far;
+  this.favorites = 0
+
+get Song(){
+return.this = addSong
+}
+
+
+
+
+class Album {
+  constructor(artist)
+  this.artist=Jack&Eliza
+
+}

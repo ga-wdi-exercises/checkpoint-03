@@ -1,4 +1,4 @@
-// Convert the following code to use `.map`
+ // Convert the following code to use `.map`
 
 var peoplesAges = []
 var people = [
@@ -9,6 +9,13 @@ var people = [
 people.forEach(function(person){
   peoplesAges.push(person.age)
 });
+
+function getpeoplesAges(){
+  var peoplesAges = [person.age];
+  return peoplesAges;
+}
+
+
 
 // Convert the following code to use `.filter`
 
@@ -23,6 +30,8 @@ people.forEach(function(person) {
     peopleYoungerThan35.push(person)
   }
 });
+
+
 
 // Convert the following to use `.forEach`
 
