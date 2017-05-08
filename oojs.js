@@ -24,10 +24,13 @@ coding.addSong("Amazing Grace");
   // Have an artist property that is determined by some input.
 
   class Album extends Playlist {
-    constructor (playlistName, song, artist){
+    constructor (playlistName, song, albumName, artist){
       super(playlistName, song);
+      this.albumName = albumName;
       this.artist = artist;
     }
   }
 
 // Create an instance of the Album class.
+
+const dilate = new Album ("coding", "Amazing Grace", "Dilate", "Ani Difranco");
