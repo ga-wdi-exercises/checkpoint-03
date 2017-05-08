@@ -17,7 +17,7 @@
 
 
 class Playlist {
-  constructor(albumTitle,songs,favorites)
+  constructor(title,songs,favorites)
   this.albumTitle = Oh No;
   this.songs = Oh No, Quarter Past the hour, One too Far;
   this.favorites = 0
@@ -33,4 +33,9 @@ class Album {
   constructor(artist)
   this.artist=Jack&Eliza
 
+  class.Album = newInstance()
+  getConstructor()="artist"
+  newInstance
 }
+
+s
