@@ -4,8 +4,8 @@
 
 ## Part I: Object-Oriented Javascript
 
-Answer the questions in `oojs.md`. Commit after each answer.
+Answer the questions in [`oojs.md`](oojs.md). Commit after each answer.
 
 ## Part II: Functional Programming
 
-Answer the questions in `fp.md`. Commit after each answer.
+Answer the questions in [`fp.md`](fp.md). Commit after each answer.
