@@ -14,7 +14,7 @@ people.forEach(function(person){
 });
 ```
 ```js
-var peoplesAges = people.map()
+var peoplesAges = people.map(callback[this.age])
 ```
 
 ### 2
@@ -35,7 +35,9 @@ people.forEach(function(person) {
 });
 ```
 ```js
-// Your answer goes here
+var peopleYoungerThan35 = people.filter((people)) =>{
+  return people.age < 35
+}
 ```
 
 ### 3
