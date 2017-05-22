@@ -1,3 +1,6 @@
+See script.js file for all answers.
+
+
 ### 1
 
 Convert the following code to use `.map`. The end result should be a `peoplesAges` array that contains each person's age.
