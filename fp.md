@@ -14,7 +14,7 @@ people.forEach(function(person){
 });
 ```
 ```js
-// Your answer goes here
+var peoplesAges = people.map(callback[this.age])
 ```
 
 ### 2
@@ -35,7 +35,9 @@ people.forEach(function(person) {
 });
 ```
 ```js
-// Your answer goes here
+var peopleYoungerThan35 = people.filter((people)) =>{
+  return people.age < 35
+}
 ```
 
 ### 3
@@ -51,5 +53,7 @@ var people = [
 var peopleWhoseNamesHaveTheLetterS = people.filter(function(person){return person.name.match("s")});
 ```
 ```js
-// Your answer goes here
+var peopleWhoseNamesHaveTheLetterS = people.forEach(function(people)){
+  return people.name.match("s")
+};
 ```
