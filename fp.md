@@ -14,7 +14,13 @@ people.forEach(function(person){
 });
 ```
 ```js
-// Your answer goes here
+function returnAges(group,ages){
+    group.map(function(person){
+        ages.push(person.age);
+    });
+}
+
+returnAges(people,peoplesAges);
 ```
 
 ### 2
@@ -35,7 +41,11 @@ people.forEach(function(person) {
 });
 ```
 ```js
-// Your answer goes here
+function whosYoungerThan35(group, under35){
+    under35 = group.filter(function(person) {
+        return person.age < 35
+    });
+}
 ```
 
 ### 3
@@ -51,5 +61,16 @@ var people = [
 var peopleWhoseNamesHaveTheLetterS = people.filter(function(person){return person.name.match("s")});
 ```
 ```js
-// Your answer goes here
+var people = [
+  {name: "Jane", age: 32},
+  {name: "Jessica", age: 34},
+  {name: "Jasmine", age: 39}
+]
+var peopleWhoseNamesHaveTheLetterS = [];
+
+function nameContainsLetterS(group, nameHasLetterS){
+    group.forEach(function(person) {
+        nameHasLetterS.push(person.name.match("s"));
+    });
+}
 ```
