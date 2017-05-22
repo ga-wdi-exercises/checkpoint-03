@@ -26,7 +26,7 @@ class Playlist {
 Create an instance of the `Playlist` class.
 
 ```js
-Your answer goes here
+return Playlist;
 ```
 
 ### 3
