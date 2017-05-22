@@ -1,3 +1,6 @@
+See script.js file for all answers.
+
+
 ### 1
 
 Define a `Playlist` class. It should have...
