@@ -7,8 +7,6 @@ var peopleWhoseNamesHaveTheLetterS = [];
 
 function nameContainsLetterS(group, nameHasLetterS){
     group.forEach(function(person) {
-        if person.name.match("s") {
-            nameHasLetterS.push(person);
-        }
+        nameHasLetterS.push(person.name.match("s"));
     });
 }
