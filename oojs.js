@@ -5,8 +5,8 @@
   // An addSong method that adds a song to the songs property.
 
   class Playlist {
-  	constructor(title, song) {
-  		this.title = title;
+  	constructor(albumTitle) {
+  		this.title = albumTitle;
   		this.songs = [];
   		this.favorite = 0;
   	}
@@ -15,6 +15,9 @@
   		this.songs.push(song);
   	}
   }
+
+  var rock = new Playlist("meteora");
+  rock.addSong("numb");
 // Create an instance of the Playlist class.
 
 // Create an Album class that inherits from Playlist. It should also...
