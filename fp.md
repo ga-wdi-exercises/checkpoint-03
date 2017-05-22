@@ -53,5 +53,7 @@ var people = [
 var peopleWhoseNamesHaveTheLetterS = people.filter(function(person){return person.name.match("s")});
 ```
 ```js
-// Your answer goes here
+var peopleWhoseNamesHaveTheLetterS = people.forEach(function(people)){
+  return people.name.match("s")
+};
 ```
