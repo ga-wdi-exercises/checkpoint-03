@@ -14,7 +14,13 @@ people.forEach(function(person){
 });
 ```
 ```js
-// Your answer goes here
+function returnAges(group,ages){
+    group.map(function(person){
+        ages.push(person.age);
+    });
+}
+
+returnAges(people,peoplesAges);
 ```
 
 ### 2
@@ -35,7 +41,11 @@ people.forEach(function(person) {
 });
 ```
 ```js
-// Your answer goes here
+function whosYoungerThan35(group, under35){
+    under35 = group.filter(function(person) {
+        return person.age < 35
+    });
+}
 ```
 
 ### 3
