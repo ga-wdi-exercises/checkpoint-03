@@ -14,7 +14,11 @@ people.forEach(function(person){
 });
 ```
 ```js
-// Your answer goes here
+
+people.map(function(ages) {
+  peoplesAges.push(ages.age);
+})
+
 ```
 
 ### 2
@@ -35,12 +39,18 @@ people.forEach(function(person) {
 });
 ```
 ```js
-// Your answer goes here
+
+ people.filter(function(youngerThan35) {
+  if (youngerThan35.age < 35) {
+    peopleYoungerThan35.push(youngerThan35)
+  }
+})
+
 ```
 
 ### 3
 
-Convert the following code to use `.forEach`. The end result should be a `peopleWhoseNamesHaveTheLetterS` that conatins people (not just names) whose names contain one or more instances of the letter "s".
+Convert the following code to use `.forEach`. The end result should be a `peopleWhoseNamesHaveTheLetterS` that contains people (not just names) whose names contain one or more instances of the letter "s".
 
 ```js
 var people = [
@@ -51,5 +61,11 @@ var people = [
 var peopleWhoseNamesHaveTheLetterS = people.filter(function(person){return person.name.match("s")});
 ```
 ```js
-// Your answer goes here
+
+people.forEach(function(namesLetterS) {
+  peopleWhoseNamesHaveTheLetterS = namesLetterS.name.match("s")
+});
+
+
+
 ```
