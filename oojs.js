@@ -16,11 +16,19 @@
   	}
   }
 
-  var rock = new Playlist("meteora");
-  rock.addSong("numb");
 // Create an instance of the Playlist class.
+var rock = new Playlist("meteora");
+rock.addSong("numb");
 
 // Create an Album class that inherits from Playlist. It should also...
   // Have an artist property that is determined by some input.
 
+  class Album extends Playlist {
+  	constructor(albumTitle, artist) {
+  		super(albumTitle);
+  		this.artist = artist;
+  	}
+  }
 // Create an instance of the Album class.
+var rockTwo = new Playlist("hybrid theory", "linkin park");
+rockTwo.addSong("crawling");
