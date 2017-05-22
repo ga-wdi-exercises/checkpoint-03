@@ -7,7 +7,22 @@ Define a `Playlist` class. It should have...
 - An `addSong` (Function) method that adds a song to the `songs` property
 
 ```js
-Your answer goes here
+var titleText = document.getElementById('title').value
+var songsText = document.getElementById('songs').value
+var songsArray = []
+var favorites = 0;
+
+class Playlist {
+  constructor(title, songs) {
+    this.title  = titleText;
+    while (songsText != ""){
+      songsArray.push(songsText);
+    }
+  }
+  addSong(songAdded){
+    songsArray.push(songAdded)
+  }
+}
 ```
 
 ### 2
@@ -15,7 +30,7 @@ Your answer goes here
 Create an instance of the `Playlist` class.
 
 ```js
-Your answer goes here
+var fireJams = new Playlist("Supa Hot Fiya", "Despacito");
 ```
 
 ### 3
@@ -24,7 +39,15 @@ Create an `Album` class that inherits from `Playlist`. It should also...
 - Have an `artist` (String) property that is determined by some input
 
 ```js
-Your answer goes here
+var inheritsFrom = function (child, parent) {
+    child.prototype = Object.create(parent.prototype);
+};
+class Album {
+  constructor(artist){
+    this.artist = artist;
+  }
+}
+inheritsFrom(Album, Playlist);
 ```
 
 ### 4
@@ -32,5 +55,5 @@ Your answer goes here
 Create an instance of the `Album` class.
 
 ```js
-Your answer goes here
+var myMixTape = new Album("theWolf");
 ```

@@ -15,6 +15,15 @@ people.forEach(function(person){
 ```
 ```js
 // Your answer goes here
+var peoplesAges = []
+var people = [
+  {name: "Jane", age: 32},
+  {name: "Jessica", age: 34},
+  {name: "Jasmine", age: 39}
+]
+people.forEach(function(person){
+  peoplesAges = people.map(people.age)
+});
 ```
 
 ### 2
@@ -35,7 +44,14 @@ people.forEach(function(person) {
 });
 ```
 ```js
-// Your answer goes here
+function checkAge() {
+  people.forEach(function(person) {
+    if(person.age < 35){
+      peopleYoungerThan35.push(person)
+    }
+  });
+}
+peopleYoungerThan35 = people.filter(checkAge);
 ```
 
 ### 3
@@ -51,5 +67,13 @@ var people = [
 var peopleWhoseNamesHaveTheLetterS = people.filter(function(person){return person.name.match("s")});
 ```
 ```js
-// Your answer goes here
+people.forEach(function(person)) {
+  for(var i = 0; i < people.length; i++)
+{
+    if(people[i].name.indexOf('s') != -1)
+    {
+        peopleWhoseNamesHaveTheLetterS.push(people[i]);
+    }
+}
+}
 ```
