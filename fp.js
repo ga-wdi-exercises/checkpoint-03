@@ -23,19 +23,12 @@ var peopleYoungerThan35 = people.filter(function (person) {
 })
 
 // // Convert the following to use `.forEach`
-//
-// var people = [
-//   {name: "Jane", age: 32},
-//   {name: "Jessica", age: 34},
-//   {name: "Jasmine", age: 39}
-// ]
-// // var peopleWhoseNamesHaveTheLetterS = people.filter(function(person){return person.name.match("s")});
-//
-//
-// var letterS = people.forEach(function (person, index) {
-//   // return person.name.match("s")
-//   if (people.index[index].indexOf('s') != -1)) {
-//     alert("test")
-//   }
-//
-// })
+
+var people = [
+  {name: "Jane", age: 32},
+  {name: "Jessica", age: 34},
+  {name: "Jasmine", age: 39}
+]
+var peopleWhoseNamesHaveTheLetterS = Object.keys(people).forEach(function(person){
+    console.log(people[person].name.match("s"));
+});
