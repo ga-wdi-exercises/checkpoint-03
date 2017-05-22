@@ -14,7 +14,7 @@ people.forEach(function(person){
 });
 ```
 ```js
-// Your answer goes here
+var peoplesAges = people.map()
 ```
 
 ### 2
